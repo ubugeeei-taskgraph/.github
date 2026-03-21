@@ -1,0 +1,71 @@
+name: update-summary
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-summary
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: voidzero-dev/setup-vp@v1
+        with:
+          node-version: "22"
+          cache: true
+
+      - run: vp install --frozen-lockfile
+
+      - name: Validate cross-repo token
+        env:
+          TASKGRAPH_REPO_TOKEN: ${{ secrets.TASKGRAPH_REPO_TOKEN }}
+        run: |
+          if [ -z "$TASKGRAPH_REPO_TOKEN" ]; then
+            echo "TASKGRAPH_REPO_TOKEN secret is required to read public-vault and private-vault." >&2
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/public-vault
+          path: repos/public-vault
+          token: ${{ secrets.TASKGRAPH_REPO_TOKEN }}
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/private-vault
+          path: repos/private-vault
+          token: ${{ secrets.TASKGRAPH_REPO_TOKEN }}
+          persist-credentials: false
+
+      - name: Generate summary
+        env:
+          OUTPUT_PATH: summary.md
+          PUBLIC_VAULT_PATH: repos/public-vault
+          PRIVATE_VAULT_PATH: repos/private-vault
+        run: vp run generate:summary
+
+      - name: Commit summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add summary.md
+          if git diff --cached --quiet; then
+            echo "No summary changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update task summary"
+          git pull --rebase
+          git push

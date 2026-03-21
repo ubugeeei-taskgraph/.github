@@ -1,3 +1,13 @@
 {
-  "type": "module"
+  "name": "@ubugeeei/taskgraph-org-meta",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "generate:summary": "vp run generate:summary:raw",
+    "generate:summary:raw": "node scripts/generate-summary.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
 }

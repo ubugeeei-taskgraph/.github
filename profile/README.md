@@ -84,3 +84,14 @@ That split makes it possible to publish the shape of ongoing work without exposi
 Private execution detail lives in `private-vault`, and work-managed streams are tracked elsewhere. In other words, the public graph is a real graph, but not the whole graph.
 
 At the same time, `public-vault` is intentionally actionable. A pull request from an outsider is treated as a concrete request against the public task graph, not just as passive feedback.
+
+## Summary
+
+This repository also publishes an automatically generated [`summary.md`](../summary.md).
+
+It is updated every 3 hours by GitHub Actions and records:
+
+- the total task count
+- the public task count
+- the current public focus
+- the current private focus as counts only

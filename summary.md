@@ -1,0 +1,68 @@
+# Taskgraph Summary
+
+Generated at 2026-03-21 21:12 JST.
+
+This file is generated automatically every 3 hours from the taskgraph repositories.
+
+## Counts
+
+- Total tasks: 89
+- Public tasks: 74
+- Private tasks: 15
+
+## Current focus
+
+### Weekly focus (2026-W12)
+
+Public focus tasks:
+- Address February 2026 PayPay Card bill `10-tasks/life--address-february-2026-paypay-card-bill.md`
+- Hire a vendor to fix the bath drain clog `10-tasks/life--hire-vendor-to-fix-bath-drain-clog.md`
+- Make the type checker production ready `10-tasks/vize--harden-type-checker.md`
+- Pay February 2026 rent `10-tasks/life--pay-february-2026-rent.md`
+- Restore home internet `10-tasks/life--restore-home-internet.md`
+- Drive implementation for ubugeeei/ide `10-tasks/ubugeeei-ide--drive-implementation.md`
+- Implement the registry system for pkg.pkl `10-tasks/pkg-pkl--implement-registry-system.md`
+- Improve performance in ox-content `10-tasks/ox-content--improve-performance.md`
+- Build an SVG loader `10-tasks/fwgl--build-svg-loader.md`
+- Coordinate Vue Fes Japan 2026 deliverables `10-tasks/vue-fes-japan-2026--coordinate-deliverables.md`
+- Review the docs style guide `10-tasks/vuejs-core-team--review-docs-style-guide.md`
+- Ship the oxlint JavaScript plugin to production readiness `10-tasks/vize--ship-oxlint-js-plugin.md`
+- Take out March 2026 trash `10-tasks/life--take-out-march-2026-trash.md`
+- Run purikura fieldwork and UI research `10-tasks/vue-fes-japan-2026--run-fieldwork-and-ui-research.md`
+- Get a ticket for Matteo Mancuso `10-tasks/life--get-matteo-mancuso-ticket.md`
+- Upgrade style-guide.vue to Vite v8 `10-tasks/style-guide-vue--upgrade-vite-v8.md`
+
+Private focus tasks:
+- 8 private task(s) are currently in weekly focus.
+
+### Monthly focus (2026-03)
+
+Public focus tasks:
+- Make the type checker production ready `10-tasks/vize--harden-type-checker.md`
+- Advance pkg.pkl `10-tasks/pkg-pkl--advance.md`
+- Advance the Vue.js core team stream `10-tasks/vuejs-core-team--advance.md`
+- Advance vize `10-tasks/vize--advance.md`
+- Drive implementation for ubugeeei/ide `10-tasks/ubugeeei-ide--drive-implementation.md`
+- Drive Vapor toward stability `10-tasks/vuejs-core-team--drive-vapor-stability.md`
+- Implement the registry system for pkg.pkl `10-tasks/pkg-pkl--implement-registry-system.md`
+- Improve performance in ox-content `10-tasks/ox-content--improve-performance.md`
+- Improve Vapor compatibility `10-tasks/vize--improve-vapor-compatibility.md`
+- Life `10-tasks/life--advance.md`
+- Migrate the personal workstation environment to Nix `10-tasks/workstation--migrate-to-nix.md`
+- Advance ox-content `10-tasks/ox-content--advance.md`
+- Advance the personal workstation environment `10-tasks/workstation--advance.md`
+- Complete the tool-specific pkl schemas `10-tasks/pkg-pkl--complete-tool-schemas.md`
+- Coordinate Vue Fes Japan 2026 deliverables `10-tasks/vue-fes-japan-2026--coordinate-deliverables.md`
+- Fix the Misskey compile errors `10-tasks/vize--fix-misskey-compile-errors.md`
+- Improve SSR and SSG compatibility `10-tasks/vize--improve-ssr-ssg-compatibility.md`
+- Ship the oxlint JavaScript plugin to production readiness `10-tasks/vize--ship-oxlint-js-plugin.md`
+- Advance fwgl `10-tasks/fwgl--advance.md`
+- Build the mdast-based JavaScript plugin `10-tasks/ox-content--build-mdast-js-plugin.md`
+- Finish ryu_trifolium's Nix book `10-tasks/workstation--finish-ryu-trifolium-nix-book.md`
+- Improve vuejs-ai `10-tasks/vuejs-core-team--improve-vuejs-ai.md`
+- Upgrade macOS on the personal workstation `10-tasks/workstation--upgrade-macos.md`
+- Explore After Effects style effects `10-tasks/fwgl--explore-after-effects-style-effects.md`
+
+Private focus tasks:
+- 13 private task(s) are currently in monthly focus.
+
