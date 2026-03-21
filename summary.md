@@ -1,14 +1,14 @@
 # Taskgraph Summary
 
-Generated at 2026-03-21 21:12 JST.
+Generated at 2026-03-21 21:25 JST.
 
 This file is generated automatically every 3 hours from the taskgraph repositories.
 
 ## Counts
 
-- Total tasks: 89
-- Public tasks: 74
-- Private tasks: 15
+- Total tasks: 103
+- Public tasks: 86
+- Private tasks: 17
 
 ## Current focus
 
