@@ -6,6 +6,10 @@
 
 taskgraph is an Obsidian-first task system for managing work as a readable, editable graph.
 
+This organization exists first and foremost to manage `@ubugeeei`'s task landscape.
+
+`public-vault` is not only a public mirror. It is also the public intake surface: when someone outside the organization opens a pull request against `public-vault`, that pull request functions as a practical task request against the public graph.
+
 This organization is shaped around three repositories:
 
 - `config`
@@ -36,6 +40,8 @@ taskgraph exists to make long-running work easier to see and easier to steer.
 - keep relationships between tasks explicit
 - make weekly and monthly focus visible at a glance
 - keep editing comfortable through Obsidian-first workflows
+
+It is also meant to create a legible request channel. The public side is intentionally open enough that collaborators and outsiders can propose work by sending pull requests to `public-vault`.
 
 ## Concept
 
@@ -76,3 +82,5 @@ That split makes it possible to publish the shape of ongoing work without exposi
 `public-vault` is intentionally partial. It contains only public-facing tasks.
 
 Private execution detail lives in `private-vault`, and work-managed streams are tracked elsewhere. In other words, the public graph is a real graph, but not the whole graph.
+
+At the same time, `public-vault` is intentionally actionable. A pull request from an outsider is treated as a concrete request against the public task graph, not just as passive feedback.
