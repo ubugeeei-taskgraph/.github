@@ -1,39 +1,24 @@
 # Taskgraph Summary
 
-Generated at 2026-03-21 21:25 JST.
+Generated at 2026-03-28 16:45 JST.
 
 This file is generated automatically every 3 hours from the taskgraph repositories.
 
 ## Counts
 
-- Total tasks: 103
-- Public tasks: 86
+- Total tasks: 111
+- Public tasks: 94
 - Private tasks: 17
 
 ## Current focus
 
-### Weekly focus (2026-W12)
+### Weekly focus (2026-W13)
 
 Public focus tasks:
-- Address February 2026 PayPay Card bill `10-tasks/life--address-february-2026-paypay-card-bill.md`
-- Hire a vendor to fix the bath drain clog `10-tasks/life--hire-vendor-to-fix-bath-drain-clog.md`
-- Make the type checker production ready `10-tasks/vize--harden-type-checker.md`
-- Pay February 2026 rent `10-tasks/life--pay-february-2026-rent.md`
-- Restore home internet `10-tasks/life--restore-home-internet.md`
-- Drive implementation for ubugeeei/ide `10-tasks/ubugeeei-ide--drive-implementation.md`
-- Implement the registry system for pkg.pkl `10-tasks/pkg-pkl--implement-registry-system.md`
-- Improve performance in ox-content `10-tasks/ox-content--improve-performance.md`
-- Build an SVG loader `10-tasks/fwgl--build-svg-loader.md`
-- Coordinate Vue Fes Japan 2026 deliverables `10-tasks/vue-fes-japan-2026--coordinate-deliverables.md`
-- Review the docs style guide `10-tasks/vuejs-core-team--review-docs-style-guide.md`
-- Ship the oxlint JavaScript plugin to production readiness `10-tasks/vize--ship-oxlint-js-plugin.md`
-- Take out March 2026 trash `10-tasks/life--take-out-march-2026-trash.md`
-- Run purikura fieldwork and UI research `10-tasks/vue-fes-japan-2026--run-fieldwork-and-ui-research.md`
-- Get a ticket for Matteo Mancuso `10-tasks/life--get-matteo-mancuso-ticket.md`
-- Upgrade style-guide.vue to Vite v8 `10-tasks/style-guide-vue--upgrade-vite-v8.md`
+- None
 
 Private focus tasks:
-- 8 private task(s) are currently in weekly focus.
+- 0 private task(s) are currently in weekly focus.
 
 ### Monthly focus (2026-03)
 
