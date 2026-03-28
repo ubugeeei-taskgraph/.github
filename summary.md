@@ -1,21 +1,27 @@
 # Taskgraph Summary
 
-Generated at 2026-03-28 16:45 JST.
+Generated at 2026-03-28 18:28 JST.
 
 This file is generated automatically every 3 hours from the taskgraph repositories.
 
 ## Counts
 
-- Total tasks: 111
-- Public tasks: 94
-- Private tasks: 17
+- Total tasks: 146
+- Public tasks: 127
+- Private tasks: 19
 
 ## Current focus
 
 ### Weekly focus (2026-W13)
 
 Public focus tasks:
-- None
+- Make the type checker production ready `10-tasks/vize--harden-type-checker.md`
+- Implement release and publish commands in Vite+ `10-tasks/vite-plus--implement-release-publish-commands.md`
+- Ship the oxlint JavaScript plugin to production readiness `10-tasks/vize--ship-oxlint-js-plugin.md`
+- Verify the ox-content code highlighting release `10-tasks/ox-content--verify-code-highlighting-release.md`
+- Verify the ox-content JavaScript plugin release `10-tasks/ox-content--verify-javascript-plugin-release.md`
+- Publish vapor-moon `10-tasks/vapor-moon--publish.md`
+- Teach Rust to wattanx `10-tasks/rust--teach-wattanx.md`
 
 Private focus tasks:
 - 0 private task(s) are currently in weekly focus.
