@@ -1,13 +1,13 @@
 # Taskgraph Summary
 
-Generated at 2026-04-02 01:02 JST.
+Generated at 2026-04-02 03:46 JST.
 
 This file is generated automatically every 3 hours from the taskgraph repositories.
 
 ## Counts
 
-- Total tasks: 146
-- Public tasks: 127
+- Total tasks: 147
+- Public tasks: 128
 - Private tasks: 19
 
 ## Current focus
@@ -15,7 +15,8 @@ This file is generated automatically every 3 hours from the taskgraph repositori
 ### Weekly focus (2026-W14)
 
 Public focus tasks:
-- None
+- Advance tsgo_rs for oxlint and vize `10-tasks/tsgo-rs--advance-for-oxlint-and-vize.md`
+- Implement release and publish commands in Vite+ `10-tasks/vite-plus--implement-release-publish-commands.md`
 
 Private focus tasks:
 - 0 private task(s) are currently in weekly focus.
@@ -23,7 +24,9 @@ Private focus tasks:
 ### Monthly focus (2026-04)
 
 Public focus tasks:
-- None
+- Advance vize `10-tasks/vize--advance.md`
+- Advance the personal workstation environment `10-tasks/workstation--advance.md`
+- Ship the oxlint JavaScript plugin to production readiness `10-tasks/vize--ship-oxlint-js-plugin.md`
 
 Private focus tasks:
 - 0 private task(s) are currently in monthly focus.
