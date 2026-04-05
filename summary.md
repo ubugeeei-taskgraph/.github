@@ -1,6 +1,6 @@
 # Taskgraph Summary
 
-Generated at 2026-04-05 21:35 JST.
+Generated at 2026-04-06 00:23 JST.
 
 This file is generated automatically every 3 hours from the taskgraph repositories.
 
@@ -12,11 +12,10 @@ This file is generated automatically every 3 hours from the taskgraph repositori
 
 ## Current focus
 
-### Weekly focus (2026-W14)
+### Weekly focus (2026-W15)
 
 Public focus tasks:
-- Advance tsgo_rs for oxlint and vize `10-tasks/tsgo-rs--advance-for-oxlint-and-vize.md`
-- Implement release and publish commands in Vite+ `10-tasks/vite-plus--implement-release-publish-commands.md`
+- None
 
 Private focus tasks:
 - 0 private task(s) are currently in weekly focus.
