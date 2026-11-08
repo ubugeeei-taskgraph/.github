@@ -1,6 +1,6 @@
 # Taskgraph Summary
 
-Generated at 2026-11-08 21:27 JST.
+Generated at 2026-11-09 04:14 JST.
 
 This file is generated automatically every 3 hours from the taskgraph repositories.
 
@@ -12,7 +12,7 @@ This file is generated automatically every 3 hours from the taskgraph repositori
 
 ## Current focus
 
-### Weekly focus (2026-W45)
+### Weekly focus (2026-W46)
 
 Public focus tasks:
 - None
